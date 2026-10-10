@@ -10,12 +10,17 @@
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 
-<body class="bg-light d-flex flex-column min-vh-100">
+<body class=" d-flex flex-column min-vh-100">
 
     
-    <header>
+    <!-- <header>
         @include('partials.header')
     </header>
+     -->
+
+     <header>
+        @include('partials.header')
+     </header>
 
     <main>
         @yield('content')
